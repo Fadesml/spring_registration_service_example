@@ -1,0 +1,22 @@
+<html lang="ru">
+<head>
+    <title>Spring boot MVC + REST Api</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form method="POST" action="http://localhost:8080/api/users/register">
+        <label>
+            <input placeholder="Логин" type="text" name="username">
+        </label>
+        <label>
+            <input placeholder="Пароль" type="password" name="password">
+        </label>
+        <label>
+            <input placeholder="Возраст" type="number" name="age">
+        </label>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+</body>
+</html>
